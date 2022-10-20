@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @font-face {
   font-family: "outward";
-  /* src: url("outward-borders-webfont.ttf"); */
-  src: url("https://github.com/NisooJadhav/for_fcc_project_portfolio/blob/main/outward-borders-webfont.ttf");
+  src: url("outward-borders-webfont.ttf");
 }
 
 :root {
