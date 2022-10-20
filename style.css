@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 10vw;
+  font: 2rem courier;
+  animation: fadeIn ease 4s;
+}
+h1 {
+  user-select: none;
+  font-size: 3rem;
+  padding-top: 0;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+li {
+  list-style-type: none;
+}
+a {
+  font: 1rem;
+  color: palevioletred;
+  text-decoration: none;
+}
+.summary-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+summary {
+  user-select: none;
+  width: 15vw;
+}
+details > details {
+  padding-left: 20px;
+  user-select: none;
+}
