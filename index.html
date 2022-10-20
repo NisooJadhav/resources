@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" href="https://i.ibb.co/X4QsLyj/img.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/X4QsLyj/img.png"
+      type="image/x-icon"
+    />
     <title>Web Resources</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +14,7 @@
   </head>
 
   <body>
-    <h1>Web Dev Resources</h1>
+    <h1>Web Dev <span>Resources</span></h1>
 
     <div class="summary-box">
       <details>
@@ -60,7 +64,7 @@
       </details>
 
       <details>
-        <summary>Learning</summary>
+        <summary>Cheatsheet</summary>
         <ul>
           <li><a href="https://icons8.com/" target="_blank">icons8</a></li>
           <li><a href="https://lordicon.com/" target="_blank">lordicon</a></li>
@@ -69,13 +73,93 @@
       </details>
 
       <details>
-        <summary>Learning</summary>
+        <summary>Colors</summary>
         <ul>
           <li><a href="https://icons8.com/" target="_blank">icons8</a></li>
           <li><a href="https://lordicon.com/" target="_blank">lordicon</a></li>
           <li><a href="https://pexels.com" target="_blank">pexels</a></li>
         </ul>
       </details>
+      <details>
+        <summary>Illustration</summary>
+        <ul>
+          <li><a href="https://icons8.com/" target="_blank">icons8</a></li>
+          <li><a href="https://lordicon.com/" target="_blank">lordicon</a></li>
+          <li><a href="https://pexels.com" target="_blank">pexels</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Fonts</summary>
+        <ul>
+          <li>
+            <a href="https://fonts.google.com/" target="_blank">google</a>
+          </li>
+          <li>
+            <a href="https://www.fontshare.com/" target="_blank">fontshare</a>
+          </li>
+          <li><a href="https://velvetyne.fr/" target="_blank">velvetyne</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>AI</summary>
+        <ul>
+          <li>
+            <a href="https://letsenhance.io/" target="_blank">letsenhance</a>
+          </li>
+          <li><a href="https://picwish.com/" target="_blank">picwish</a></li>
+          <li><a href="https://pexels.com" target="_blank">pexels</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>3D</summary>
+        <ul>
+          <li>
+            <a href="https://spline.design/" target="_blank">letsenhance</a>
+          </li>
+          <li><a href="https://picwish.com/" target="_blank">picwish</a></li>
+          <li><a href="https://pexels.com" target="_blank">pexels</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Performance</summary>
+        <ul>
+          <li>
+            <a href="https://pagespeed.web.dev/" target="_blank">letsenhance</a>
+          </li>
+          <li>
+            <a
+              href="https://developers.google.com/search/docs/crawling-indexing/special-tags"
+              target="_blank"
+              >SEO</a
+            >
+          </li>
+          <li><a href="https://pexels.com" target="_blank">pexels</a></li>
+        </ul>
+      </details>
     </div>
+
+    <div class="dark">
+      <svg
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="1.5"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+      </svg>
+    </div>
+
+    <script>
+      const dark = document.querySelector(".dark");
+      dark.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark-theme");
+      });
+    </script>
   </body>
 </html>
