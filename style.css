@@ -9,13 +9,14 @@
   --bg: #eee;
   --svgborder: var(--bg);
   --fill: transparent;
+  --web: #256d85;
 }
 .dark-theme {
   --head: #eee;
   --bg: #222831;
   --fill: gold;
+  --web: #21e1e1;
 }
-
 svg {
   width: 2%;
   position: fixed;
@@ -36,7 +37,6 @@ svg:hover {
   transition: all 0.3s;
   box-shadow: 1px 1px 10px #00000040;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -52,13 +52,18 @@ body {
 }
 h1 {
   padding-left: 5vw;
-  color: var(--head);
   font-family: outward, serif;
   user-select: none;
   font-size: 10rem;
   position: relative;
+  background: -webkit-linear-gradient(315deg, var(--web) 5%, #47b5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 span {
+  background: -webkit-linear-gradient(315deg, var(--web) 5%, #47b5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: architects daughter;
   font-size: 3rem;
 }
@@ -92,6 +97,7 @@ a {
   flex-wrap: wrap;
 }
 summary {
+  font-weight: bold;
   user-select: none;
   width: 20vw;
 }
