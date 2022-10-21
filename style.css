@@ -3,7 +3,6 @@
   font-family: "outward";
   src: url("outward-borders-webfont.ttf");
 }
-
 :root {
   --head: #202020;
   --bg: #eee;
@@ -37,6 +36,7 @@ svg:hover {
   transition: all 0.3s;
   box-shadow: 1px 1px 10px #00000040;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -50,23 +50,6 @@ body {
   background: var(--bg);
   color: var(--head);
 }
-h1 {
-  padding-left: 5vw;
-  font-family: outward, serif;
-  user-select: none;
-  font-size: 10rem;
-  position: relative;
-  background: -webkit-linear-gradient(315deg, var(--web) 5%, #47b5ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-span {
-  background: -webkit-linear-gradient(315deg, var(--web) 5%, #47b5ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: architects daughter;
-  font-size: 3rem;
-}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -77,6 +60,45 @@ span {
   100% {
     opacity: 1;
   }
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 5vw;
+  font-family: outward, serif;
+  user-select: none;
+  font-size: 10rem;
+  position: relative;
+  /* background: -webkit-linear-gradient(315deg, var(--web) 5%, #47b5ff);*/
+
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
+  background-size: 300% 300%;
+  animation: gradient 2.5s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+span {
+  color: var(--head) !important;
+  font-family: architects daughter;
+  font-size: 3rem;
 }
 li {
   list-style-type: none;
@@ -120,13 +142,18 @@ details > details {
   details {
     font-size: 1rem;
     display: inline-block;
-    width: 100%;
+    width: 100vw;
+    padding-bottom: 1vh;
   }
   summary {
     padding: 1vh;
-    width: 100%;
+    width: 75vw;
+  }
+  .summary-box{
+    margin-bottom: 50px;
   }
   svg {
+    margin-top: 100px;
     width: 3%;
   }
 }
