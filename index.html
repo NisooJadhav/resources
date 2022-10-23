@@ -10,7 +10,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preload stylesheet" href="style.css" as="stylesheet"/>
+    <link rel="preload stylesheet" href="style.css" as="stylesheet" />
   </head>
 
   <body>
@@ -25,6 +25,18 @@
             <a href="https://letsenhance.io/">letsenhance</a>
           </li>
           <li><a href="https://picwish.com/">picwish</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Background</summary>
+        <ul>
+          <li><a href="https://app.haikei.app/">haikei</a></li>
+          <li>
+            <a href="https://meshgradient.in/">meshgradient</a>
+          </li>
+          <li><a href="https://tabbied.com/select-artwork">tabbied</a></li>
+          <li><a href="https://bansal.io/pattern-css">pattern-css</a></li>
         </ul>
       </details>
 
@@ -70,6 +82,19 @@
       </details>
 
       <details>
+        <summary>Fonts</summary>
+        <ul>
+          <li>
+            <a href="https://fonts.google.com/">google</a>
+          </li>
+          <li>
+            <a href="https://www.fontshare.com/">fontshare</a>
+          </li>
+          <li><a href="https://velvetyne.fr/">velvetyne</a></li>
+        </ul>
+      </details>
+
+      <details>
         <summary>Images</summary>
         <ul>
           <li><a href="https://pixabay.com">pixabay</a></li>
@@ -85,25 +110,6 @@
           <li><a href="https://lordicon.com/">lordicon</a></li>
         </ul>
       </details>
-      
-      <details>
-        <summary>Learning</summary>
-        <details>
-          <summary>Interact</summary>
-          <ul>
-            <li><a href="https://icons8.com/">icons8</a></li>
-            <li>
-              <a href="https://lordicon.com/">lordicon</a>
-            </li>
-            <li><a href="https://pexels.com">pexels</a></li>
-          </ul>
-        </details>
-        <ul>
-          <li><a href="https://icons8.com/">icons8</a></li>
-          <li><a href="https://lordicon.com/">lordicon</a></li>
-          <li><a href="https://pexels.com">pexels</a></li>
-        </ul>
-      </details>
 
       <details>
         <summary>Illustration</summary>
@@ -115,15 +121,16 @@
       </details>
 
       <details>
-        <summary>Fonts</summary>
+        <summary>Learning</summary>
+        <details>
+          <summary>Interact</summary>
+          <ul>
+            <li><a href="https://freecodecamp.org/">freecodecamp</a></li>
+            <li><a href="academy.hubspot.com">hubspot</a></li>
+          </ul>
+        </details>
         <ul>
-          <li>
-            <a href="https://fonts.google.com/">google</a>
-          </li>
-          <li>
-            <a href="https://www.fontshare.com/">fontshare</a>
-          </li>
-          <li><a href="https://velvetyne.fr/">velvetyne</a></li>
+          <li><a href="academy.hubspot.com">hubspot</a></li>
         </ul>
       </details>
 
@@ -131,10 +138,20 @@
         <summary>3D</summary>
         <ul>
           <li>
-            <a href="https://spline.design/">letsenhance</a>
+            <a href="https://shapefest.com/">shapefest</a>
           </li>
-          <li><a href="https://picwish.com/">picwish</a></li>
-          <li><a href="https://pexels.com">pexels</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Misc</summary>
+        <ul>
+          <li>
+            <a href="https://123apps.com/">123apps</a>
+          </li>
+          <li>
+            <a href="https://alternative.to/">alternative.to</a>
+          </li>
         </ul>
       </details>
 
@@ -163,7 +180,7 @@
       </details>
     </div>
 
-    <div class="dark">
+    <div class="dark" onclick="toggle()">
       <svg
         viewBox="0 0 24 24"
         stroke-width="1"
@@ -176,10 +193,9 @@
     </div>
 
     <script>
-      const dark = document.querySelector(".dark");
-      dark.addEventListener("click", () => {
+      function toggle() {
         document.documentElement.classList.toggle("dark-theme");
-      });
+      }
     </script>
   </body>
 </html>

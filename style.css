@@ -36,7 +36,6 @@ svg:hover {
   transition: all 0.3s;
   box-shadow: 1px 1px 10px #00000040;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -61,7 +60,6 @@ body {
     opacity: 1;
   }
 }
-
 h1 {
   font-weight: 900;
   padding-left: 5vw;
@@ -94,7 +92,6 @@ h1 {
     background-position: 0% 50%;
   }
 }
-
 span {
   color: var(--head) !important;
   font-family: architects daughter;
@@ -110,10 +107,14 @@ li {
 a {
   font: 1rem;
   color: var(--head);
-  text-decoration: none;
+  text-decoration: underline;
+  opacity: 0.8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .summary-box {
   padding-left: 5vw;
+  padding-bottom: 5vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,6 +125,7 @@ summary {
   width: 20vw;
 }
 details {
+  cursor: pointer;
   margin-bottom: 0;
 }
 details > details {
@@ -149,7 +151,7 @@ details > details {
     padding: 1vh;
     width: 75vw;
   }
-  .summary-box{
+  .summary-box {
     margin-bottom: 50px;
   }
   svg {
