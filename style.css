@@ -11,8 +11,8 @@
   --web: #256d85;
 }
 .dark-theme {
-  --head: #eee;
-  --bg: #222831;
+  --head: #FAF9F6;
+  --bg: #181818;
   --fill: gold;
   --web: #21e1e1;
 }
@@ -113,13 +113,16 @@ a {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .summary-box {
-  padding-left: 5vw;
   padding-bottom: 5vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
 }
 summary {
+  padding: 2vh;
   font-weight: bold;
   user-select: none;
   width: 20vw;
@@ -149,9 +152,14 @@ details > details {
   }
   summary {
     padding: 1vh;
-    width: 75vw;
+    width: 50vw;
+  }
+  details > details {
+    padding: 1vh;
+    width: 50%;
   }
   .summary-box {
+    padding-left: 3vh;
     margin-bottom: 50px;
   }
   svg {

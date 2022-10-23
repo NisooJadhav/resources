@@ -10,11 +10,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preload stylesheet" href="style.css" as="stylesheet" />
+    <link rel="preload stylesheet" as="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1>Web Dev <span>Resources</span></h1>
+    <center>
+      <h1>Web Dev <span>Resources</span></h1>
+    </center>
 
     <div class="summary-box">
       <details>
@@ -126,11 +128,17 @@
           <summary>Interact</summary>
           <ul>
             <li><a href="https://freecodecamp.org/">freecodecamp</a></li>
-            <li><a href="academy.hubspot.com">hubspot</a></li>
+            <li>
+              <a
+                href="https://github.com/ronreiter/interactive-tutorials#readme"
+                >Languages</a
+              >
+            </li>
           </ul>
         </details>
         <ul>
-          <li><a href="academy.hubspot.com">hubspot</a></li>
+          <li><a href="https://missing.csail.mit.edu/">missing sem</a></li>
+          <li><a href="https://academy.hubspot.com">hubspot</a></li>
         </ul>
       </details>
 
@@ -180,7 +188,10 @@
       </details>
     </div>
 
-    <div class="dark" onclick="toggle()">
+    <div
+      class="dark"
+      onclick="document.documentElement.classList.toggle('dark-theme')"
+    >
       <svg
         viewBox="0 0 24 24"
         stroke-width="1"
@@ -191,11 +202,5 @@
         <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
       </svg>
     </div>
-
-    <script>
-      function toggle() {
-        document.documentElement.classList.toggle("dark-theme");
-      }
-    </script>
   </body>
 </html>
