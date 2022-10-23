@@ -1,5 +1,3 @@
-# web dev resources
+# web dev [resources](https://nisoojadhav.github.io/resources)
 
-[visit](https://nisoojadhav.github.io/resources)
-
-PRs are welcome
+### PRs are welcome
