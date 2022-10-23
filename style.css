@@ -2,7 +2,9 @@
 @font-face {
   font-family: "outward";
   src: url("outward-borders-webfont.ttf");
+  font-display: swap
 }
+
 :root {
   --head: #202020;
   --bg: #eee;
