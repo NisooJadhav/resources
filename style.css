@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@font-face {
-  font-family: "outward";
-  src: url("outward-borders-webfont.ttf");
-  font-display: swap
-}
 
 :root {
   --head: #202020;
@@ -13,7 +8,7 @@
   --web: #256d85;
 }
 .dark-theme {
-  --head: #FAF9F6;
+  --head: #faf9f6;
   --bg: #181818;
   --fill: gold;
   --web: #21e1e1;
@@ -63,13 +58,12 @@ body {
   }
 }
 h1 {
-  font-weight: 900;
+  font-weight: 100;
   padding-left: 5vw;
-  font-family: outward, serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   user-select: none;
-  font-size: 10rem;
+  font-size: 6rem;
   position: relative;
-  /* background: -webkit-linear-gradient(315deg, var(--web) 5%, #47b5ff);*/
 
   background: -webkit-linear-gradient(
     -45deg,
@@ -141,7 +135,7 @@ details > details {
 /* media queries */
 @media screen and (max-width: 650px) {
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   span {
     font-size: 2rem;
