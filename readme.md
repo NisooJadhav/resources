@@ -1,8 +1,17 @@
-# web dev resources ([live site](https://nisoojadhav.github.io/resources))
+# Web Dev Resources 🌐
 
-### PRs are welcome
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nisoojadhav/resources)
 
-#
+Welcome to **Web Dev Resources**, collecting scattered diamonds across the internet for web devs 💡
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-web resources by [nisoojadhav](https://github.com/nisoojadhav) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), based on a work at [web resources](https://nisoojadhav.github.io/resources/)
+## Live Site 🚀
+
+Check out the live site [here](https://nisoojadhav.github.io/resources).
+
+## Contributing 🤝
+
+PRs (Pull Requests) are welcome! If you have a valuable resource to add or want to improve existing content, feel free to contribute. Together, we can make this collection even better! 🌟
+
+## License 📜
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). It is based on a work at [Web Resources](https://your-live-site-url).
