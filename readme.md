@@ -12,6 +12,10 @@ Check out the live site [here](https://nisoojadhav.github.io/resources).
 
 PRs (Pull Requests) are welcome! If you have a valuable resource to add or want to improve existing content, feel free to contribute. Together, we can make this collection even better! 🌟
 
+## Star ⭐
+
+If you love this project, show your support ❤️ by giving us a star 🌟.
+
 ## License 📜
 
 This project is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). It is based on a work at [Web Resources](https://your-live-site-url).
