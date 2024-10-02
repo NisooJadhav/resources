@@ -1,4 +1,4 @@
-![Screenshot_2023-06-17_07-53-53](https://github.com/NisooJadhav/resources/assets/68807845/fee90730-553b-49e3-9e18-0d3de3ce902f)
+![image](https://github.com/user-attachments/assets/73d5edc6-6a16-4ad3-b36d-179974427975)
 
 # Web Dev Resources 🌐
 
