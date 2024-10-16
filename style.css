@@ -207,3 +207,21 @@ a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+
+#language-selector {
+    position: fixed;
+    top: 20px;
+    right: 80px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    #language-selector {
+        top: 10px;
+        right: 10px;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
