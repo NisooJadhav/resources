@@ -1,227 +1,273 @@
-@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
-
 :root {
-    --bg: #f0f0f0;
-    --text: #333;
-    --primary: #4a90e2;
-    --secondary: #50c878;
-    --accent: #ff6b6b;
-    --card-bg: #ffffff;
+  --bg: #f0f0f0;
+  --text: #333;
+  --primary: #4a90e2;
+  --secondary: #50c878;
+  --accent: #ff6b6b;
+  --card-bg: #ffffff;
 }
 
 .dark-theme {
-    --bg: #222;
-    --text: #f0f0f0;
-    --primary: #64b5f6;
-    --secondary: #81c784;
-    --accent: #ff8a80;
-    --card-bg: #333;
+  --bg: #222;
+  --text: #f0f0f0;
+  --primary: #64b5f6;
+  --secondary: #81c784;
+  --accent: #ff8a80;
+  --card-bg: #333;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--bg);
-    color: var(--text);
-    transition: all 0.3s ease;
-    margin: 0;
-    padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: all 0.3s ease;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .hover-text {
-    color: black;
-    transition: color 0.3s;
-    display: inline-block;
+  color: black;
+  transition: color 0.3s;
+  display: inline-block;
 }
 
 .hover-text:hover {
-    color: rgb(255, 166, 0);
+  color: rgb(255, 166, 0);
 }
 
 .hover-section {
-    color: black;
-    transition: color 0.3s;
+  color: black;
+  transition: color 0.3s;
 }
 
 .hover-section:hover {
-    color: rgb(217, 0, 255);
+  color: rgb(217, 0, 255);
 }
 
 h1 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 30px;
-    background: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientText 5s ease infinite;
+  font-family: Impact, Haettenschweiler, "Arial Narrow", sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 30px;
+  background: -webkit-linear-gradient(-45deg, gold, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientText 5s ease infinite;
+  font-weight: normal;
+}
+
+span {
+  font-family: architects daughter;
+  font-size: 3rem;
+  color: var(--head) !important;
+  font-weight: bold;
 }
 
 @keyframes gradientText {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .search-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 #search-input {
-    width: 300px;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 25px;
-    background-color: var(--card-bg);
-    color: var(--text);
-    box-shadow: 0 2px 10px rgba(4, 3, 5, 0.1);
-    padding-left: 20px;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--card-bg);
+  color: var(--text);
+  box-shadow: 0 2px 10px rgba(4, 3, 5, 0.1);
+  padding-left: 20px;
 }
 
 .category-filter {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .category-filter button {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    background-color: var(--primary);
-    color: #fff;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .category-filter button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(7, 3, 7, 0.2);
-    background-color: #8281c7; /* Optional: change background color on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(7, 3, 7, 0.2);
+  background-color: #8281c7; /* Optional: change background color on hover */
 }
 
 .resources-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .resource-card {
-    background-color: var(--card-bg);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .resource-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .resource-card h3 {
-    margin-top: 0;
-    color: var(--primary);
+  margin-top: 0;
+  color: var(--primary);
 }
 
 .resource-card ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .resource-card li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .resource-card a {
-    color: var(--secondary);
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .resource-card a:hover {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .hidden-gem::after {
-    content: "💎";
-    margin-left: 5px;
-    font-size: 14px;
+  content: "💎";
+  margin-left: 5px;
+  font-size: 14px;
 }
 
 #theme-toggle {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: var(--primary);
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 #theme-toggle:hover {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 #back-to-top {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    background-color: var(--primary);
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
 }
 
 #back-to-top:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 a:hover {
-    text-decoration: underline violet;
+  text-decoration: underline violet;
 }
-
-@media (max-width: 768px) {
-    .resources-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 
 #language-selector {
-    position: fixed;
-    top: 20px;
-    right: 80px;
-    padding: 10px;
-    border-radius: 5px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: none;
 }
 
 @media (max-width: 768px) {
-    #language-selector {
-        top: 10px;
-        right: 10px;
-        font-size: 14px;
-        padding: 8px 15px;
-    }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  span {
+    font-size: 1.5rem;
+  }
+
+  .category-filter button {
+    margin: 3px;
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #language-selector {
+    width: 25vw;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  #back-to-top {
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  #theme-toggle {
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+  }
 }
