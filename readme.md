@@ -1,8 +1,9 @@
-![PC](https://github.com/user-attachments/assets/41995f54-7871-4f41-9ba9-a148e900e88e)
+![image](https://github.com/user-attachments/assets/917f97a3-4c16-4b96-8781-d504cdb8727c)
 
 <span align="center">
-  <img src="https://github.com/user-attachments/assets/559c07c7-0563-4c0b-bb19-93f4ed1479be" width="200" />
-  <img src="https://github.com/user-attachments/assets/ba6a256c-96fd-4176-98c0-150a9c540cad" width="200" />
+  <img src="https://github.com/user-attachments/assets/3acdd89a-ef8d-4435-87e5-5a678c950b61" width="160" />
+  <img src="https://github.com/user-attachments/assets/72995761-d529-413b-be04-865b97b9399b" width="160" />
+  <img src="https://github.com/user-attachments/assets/b138716c-bc57-46ca-ae4b-6d77f01ab5c8" width="650" />
 </span>
 
 
