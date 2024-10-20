@@ -1,4 +1,10 @@
-![image](https://github.com/user-attachments/assets/73d5edc6-6a16-4ad3-b36d-179974427975)
+![PC](https://github.com/user-attachments/assets/41995f54-7871-4f41-9ba9-a148e900e88e)
+
+<span align="center">
+  <img src="https://github.com/user-attachments/assets/559c07c7-0563-4c0b-bb19-93f4ed1479be" width="200" />
+  <img src="https://github.com/user-attachments/assets/ba6a256c-96fd-4176-98c0-150a9c540cad" width="200" />
+</span>
+
 
 # Web Dev Resources 🌐
 
@@ -16,7 +22,7 @@ PRs (Pull Requests) are welcome! Feel free to contribute if you have a valuable 
 
 ## Star ⭐
 
-If you love this project, show your support ❤️ by giving us a star 🌟.
+If you love this project, show your support ❤️ by giving us a star 🌟
 
 ## License 📜
 
