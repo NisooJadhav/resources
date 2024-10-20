@@ -1,6 +1,6 @@
 {
     "en": {
-        "title": "Web Dev Resources 🌐",
+        "title": "Web Dev Resources",
         "search_placeholder": "🔍 Search Resources...",
         "categories": {
             "all": "All",
@@ -27,7 +27,7 @@
         "back_to_top": "↑"
     },
     "fr": {
-        "title": "Ressources pour les développeurs web 🌐",
+        "title": "Ressources pour les développeurs web",
         "search_placeholder": "🔍 Rechercher des ressources...",
         "categories": {
             "all": "Tout",
@@ -54,7 +54,7 @@
         "back_to_top": "↑"
     },
     "es": {
-        "title": "Recursos para desarrollo web 🌐",
+        "title": "Recursos para desarrollo web ",
         "search_placeholder": "🔍 Buscar recursos...",
         "categories": {
             "all": "Todo",
@@ -81,7 +81,7 @@
         "back_to_top": "↑"
     },
     "de": {
-        "title": "Web-Entwicklungsressourcen 🌐",
+        "title": "Web-Entwicklungsressourcen ",
         "search_placeholder": "🔍 Ressourcen durchsuchen...",
         "categories": {
             "all": "Alle",
@@ -108,7 +108,7 @@
         "back_to_top": "↑"
     },
     "it": {
-        "title": "Risorse per lo sviluppo web 🌐",
+        "title": "Risorse per lo sviluppo web ",
         "search_placeholder": "🔍 Cerca risorse...",
         "categories": {
             "all": "Tutto",
@@ -135,7 +135,7 @@
         "back_to_top": "↑"
     },
     "zh": {
-        "title": "网页开发资源 🌐",
+        "title": "网页开发资源 ",
         "search_placeholder": "🔍 搜索资源...",
         "categories": {
             "all": "所有",
@@ -162,7 +162,7 @@
         "back_to_top": "↑"
     },
     "ja": {
-        "title": "ウェブ開発リソース 🌐",
+        "title": "ウェブ開発リソース ",
         "search_placeholder": "🔍 リソースを検索...",
         "categories": {
             "all": "すべて",
@@ -189,7 +189,7 @@
         "back_to_top": "↑"
     },
     "ko": {
-        "title": "웹 개발 리소스 🌐",
+        "title": "웹 개발 리소스 ",
         "search_placeholder": "🔍 리소스 검색...",
         "categories": {
             "all": "전체",
@@ -216,7 +216,7 @@
         "back_to_top": "↑"
     },
     "pt": {
-        "title": "Recursos de desenvolvimento web 🌐",
+        "title": "Recursos de desenvolvimento web ",
         "search_placeholder": "🔍 Pesquisar recursos...",
         "categories": {
             "all": "Tudo",
@@ -243,7 +243,7 @@
         "back_to_top": "↑"
     },
     "ru": {
-        "title": "Ресурсы для веб-разработки 🌐",
+        "title": "Ресурсы для веб-разработки ",
         "search_placeholder": "🔍 Искать ресурсы...",
         "categories": {
             "all": "Все",
@@ -270,7 +270,7 @@
         "back_to_top": "↑"
     },
     "ar": {
-        "title": "موارد تطوير الويب 🌐",
+        "title": "موارد تطوير الويب ",
         "search_placeholder": "🔍 ابحث عن الموارد...",
         "categories": {
             "all": "الكل",
@@ -297,7 +297,7 @@
         "back_to_top": "↑"
     },
     "hi": {
-        "title": "वेब डेवलपमेंट संसाधन 🌐",
+        "title": "वेब डेवलपमेंट संसाधन ",
         "search_placeholder": "🔍 संसाधन खोजें...",
         "categories": {
             "all": "सभी",
@@ -324,7 +324,7 @@
         "back_to_top": "↑"
     },
     "bn": {
-        "title": "ওয়েব ডেভেলপমেন্ট রিসোর্স 🌐",
+        "title": "ওয়েব ডেভেলপমেন্ট রিসোর্স ",
         "search_placeholder": "🔍 সম্পদ অনুসন্ধান করুন...",
         "categories": {
             "all": "সব",
@@ -351,7 +351,7 @@
         "back_to_top": "↑"
     },
     "ur": {
-        "title": "ویب ڈویلپمنٹ کے وسائل 🌐",
+        "title": "ویب ڈویلپمنٹ کے وسائل ",
         "search_placeholder": "🔍 وسائل تلاش کریں...",
         "categories": {
             "all": "سب",
@@ -378,7 +378,7 @@
         "back_to_top": "↑"
     },
     "id": {
-        "title": "Sumber Daya Pengembangan Web 🌐",
+        "title": "Sumber Daya Pengembangan Web ",
         "search_placeholder": "🔍 Cari Sumber Daya...",
         "categories": {
             "all": "Semua",
@@ -405,7 +405,7 @@
         "back_to_top": "↑"
     },
     "vi": {
-        "title": "Tài Nguyên Phát Triển Web 🌐",
+        "title": "Tài Nguyên Phát Triển Web ",
         "search_placeholder": "🔍 Tìm kiếm tài nguyên...",
         "categories": {
             "all": "Tất cả",
@@ -432,7 +432,7 @@
         "back_to_top": "↑"
     },
     "th": {
-        "title": "ทรัพยากรการพัฒนาเว็บ 🌐",
+        "title": "ทรัพยากรการพัฒนาเว็บ ",
         "search_placeholder": "🔍 ค้นหาทรัพยากร...",
         "categories": {
             "all": "ทั้งหมด",
@@ -459,7 +459,7 @@
         "back_to_top": "↑"
     },
     "tr": {
-        "title": "Web Geliştirme Kaynakları 🌐",
+        "title": "Web Geliştirme Kaynakları ",
         "search_placeholder": "🔍 Kaynakları Ara...",
         "categories": {
             "all": "Tümü",
@@ -486,7 +486,7 @@
         "back_to_top": "↑"
     },
     "nl": {
-        "title": "Webontwikkelingsbronnen 🌐",
+        "title": "Webontwikkelingsbronnen ",
         "search_placeholder": "🔍 Zoek naar bronnen...",
         "categories": {
             "all": "Alles",
@@ -513,7 +513,7 @@
         "back_to_top": "↑"
     },
     "pl": {
-        "title": "Zasoby dla programistów WWW 🌐",
+        "title": "Zasoby dla programistów WWW ",
         "search_placeholder": "🔍 Szukaj zasobów...",
         "categories": {
             "all": "Wszystko",
