@@ -1,8 +1,8 @@
 :root {
   --bg: #f0f0f0;
-  --text: #333;
-  --primary: #4a90e2;
-  --secondary: #50c878;
+  --text: #222;
+  --primary: #2073d2;
+  --secondary: #009f35;
   --accent: #ff6b6b;
   --card-bg: #ffffff;
 }
@@ -10,7 +10,7 @@
 .dark-theme {
   --bg: #222;
   --text: #f0f0f0;
-  --primary: #64b5f6;
+  --primary: #2073d2;
   --secondary: #81c784;
   --accent: #ff8a80;
   --card-bg: #333;
@@ -51,7 +51,7 @@ body {
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow", sans-serif;
+  font-family: "Sharpie", Haettenschweiler, sans-serif;
   font-size: 6rem;
   text-align: center;
   margin-bottom: 30px;
@@ -112,7 +112,8 @@ span {
   padding: 10px 20px;
   font-size: 14px;
   background-color: var(--primary);
-  color: #fff;
+  color: white;
+  font-weight: bold;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -214,6 +215,17 @@ span {
 
 a:hover {
   text-decoration: underline violet;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 #language-selector {
