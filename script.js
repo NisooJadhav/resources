@@ -33,6 +33,24 @@ function toggleDarkMode() {
     themeToggle.textContent = themeToggle.textContent === '🌙' ? '🌞' : '🌙';
 }
 
+//dynamically load filters
+function loadFilters(data){
+    try{
+        const categoryFilter = document.getElementById("category-filter");
+
+        
+
+        for(const [category, links] of Object.entries(data.resources)){
+            const filter = document.createElement("button");
+            filter.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+            filter.onclick = () => filterCategory(category);
+            categoryFilter.appendChild(filter);
+        }        
+    }catch(error){
+        console.error('Error loading filters: ', error);
+    }
+}
+
 // Back to top button
 const backToTop = document.getElementById('back-to-top');
 window.addEventListener('scroll', () => {
@@ -47,6 +65,53 @@ backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+//load links
+async function loadResources() {
+    try {
+        const response = await fetch('resources.json'); // Fetch the JSON file
+        const data = await response.json(); // Parse the JSON data
+
+        loadFilters(data);
+
+        const resourcesContainer = document.getElementById('resources-grid');
+
+        // Iterate over each category in the resources
+        for (const [category, links] of Object.entries(data.resources)) {
+            
+            const resourceCard = document.createElement('div'); // Create a new div for the category
+            const resourceTitle = document.createElement('h3'); // Create a title for the category
+            const resourceList = document.createElement('ul'); // Create a div to hold the resource links
+
+            resourceCard.className = "resource-card"; //set class name
+            resourceCard.setAttribute('data-category', category); //set custome attribute
+
+            resourceTitle.textContent = category.charAt(0).toUpperCase() + category.slice(1); // Capitalize the first letter
+            resourceTitle.className = "hover-text";
+            resourceCard.appendChild(resourceTitle);
+
+            
+            // Iterate over each link in the category
+            links.forEach(link => {
+                const resourceItem = document.createElement('li'); // Create a new div for each resource item
+
+                const linkElement = document.createElement('a'); // Create an anchor element for the link
+                linkElement.href = link.url; // Set the link URL
+                linkElement.textContent = link.title; // Set the link text
+                linkElement.target = '_blank'; // Open link in new tab
+
+                resourceItem.appendChild(linkElement); // Append the link to the resource item
+                resourceList.appendChild(resourceItem); // Append the resource item to the list
+            });
+
+            resourceCard.appendChild(resourceList); // Append the resource list to the category div
+            resourcesContainer.appendChild(resourceCard); // Append the category div to the main container
+        }
+    } catch (error) {
+        console.error('Error loading resources:', error); // Log any errors
+    }
+}
+
+window.onload = loadResources;
 
 // Load translations from the languages.json file
 function loadLanguage(lang) {

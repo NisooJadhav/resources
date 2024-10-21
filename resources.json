@@ -1,0 +1,450 @@
+{
+    "resources": {
+        "ai": [
+            {
+                "title": "remini",
+                "url": "https://remini.ai/"
+            },
+            {
+                "title": "letsenhance",
+                "url": "https://letsenhance.io/"
+            },
+            {
+                "title": "picwish",
+                "url": "https://picwish.com/"
+            },
+            {
+                "title": "gen. photos",
+                "url": "https://generated.photos/"
+            },
+            {
+                "title": "remove.bg",
+                "url": "https://www.remove.bg/"
+            },
+            {
+                "title": "deepartio",
+                "url": "https://creativitywith.ai/deepartio/"
+            },
+            {
+                "title": "denoise",
+                "url": "https://www.topazlabs.com/denoise-ai"
+            },
+            {
+                "title": "deep-nostalgia",
+                "url": "https://www.myheritage.com/deep-nostalgia"
+            },
+            {
+                "title": "imagen-ai",
+                "url": "https://imagen-ai.com/"
+            },
+            {
+                "title": "prisma-ai",
+                "url": "https://prisma-ai.com/lensa"
+            },
+            {
+                "title": "Midjourney",
+                "url": "https://www.midjourney.com/"
+            },
+            {
+                "title": "OpenAI Playground",
+                "url": "https://beta.openai.com/playground/"
+            }
+        ],
+        "background": [
+            {
+                "title": "Haikei",
+                "url": "https://app.haikei.app/"
+            },
+            {
+                "title": "Mesh Gradient",
+                "url": "https://meshgradient.in/"
+            },
+            {
+                "title": "Tabbied",
+                "url": "https://tabbied.com/select-artwork"
+            },
+            {
+                "title": "Pattern CSS",
+                "url": "https://bansal.io/pattern-css"
+            },
+            {
+                "title": "Wallpaperflare",
+                "url": "https://www.wallpaperflare.com/"
+            },
+            {
+                "title": "Unsplash",
+                "url": "https://www.unsplash.com/"
+            },
+            {
+                "title": "Freepik",
+                "url": "https://www.freepik.com/"
+            }
+        ],
+        "learning": [
+            {
+                "title": "Complete Web",
+                "url": "https://microsoft.github.io/Web-Dev-For-Beginners/#/?id=lessons"
+            },
+            {
+                "title": "freecodecamp",
+                "url": "https://freecodecamp.org/"
+            },
+            {
+                "title": "Codecademy",
+                "url": "https://www.codecademy.com/"
+            },
+            {
+                "title": "theodinproject",
+                "url": "https://www.theodinproject.com/"
+            },
+            {
+                "title": "Learn AI",
+                "url": "https://elementsofai.com/"
+            },
+            {
+                "title": "exercism.org",
+                "url": "https://exercism.org/"
+            },
+            {
+                "title": "Programming Languages",
+                "url": "https://github.com/ronreiter/interactive-tutorials#readme"
+            },
+            {
+                "title": "Missing Semester",
+                "url": "https://missing.csail.mit.edu/"
+            },
+            {
+                "title": "Hubspot",
+                "url": "https://academy.hubspot.com/"
+            },
+            {
+                "title": "Frontend Masters",
+                "url": "https://frontendmasters.com/"
+            },
+            {
+                "title": "Code Crafters",
+                "url": "https://app.codecrafters.io/catalog"
+            }
+        ],
+        "cheatsheet": [
+            {
+                "title": "Devdocs",
+                "url": "https://devdocs.io/"
+            },
+            {
+                "title": "OverAPI",
+                "url": "https://overapi.com/"
+            },
+            {
+                "title": "Roadmap.sh",
+                "url": "https://roadmap.sh/"
+            },
+            {
+                "title": "Cheatography",
+                "url": "https://cheatography.com/"
+            },
+            {
+                "title": "Cheat-Sheets",
+                "url": "https://www.cheat-sheets.org/"
+            },
+            {
+                "title": "HTML Cheatsheet",
+                "url": "https://htmlcheatsheet.com/"
+            },
+            {
+                "title": "JavaScript Operators",
+                "url": "https://www.w3schools.com/js/js_ref_operators.asp"
+            },
+            {
+                "title": "DevHints",
+                "url": "https://devhints.io/"
+            },
+            {
+                "title": "QuickRef.me",
+                "url": "https://quickref.me/"
+            }
+        ],
+        "colors": [
+            {
+                "title": "Coolors",
+                "url": "https://coolors.co/"
+            },
+            {
+                "title": "ColorHunt",
+                "url": "https://colorhunt.co/"
+            },
+            {
+                "title": "Colour Lovers",
+                "url": "https://www.colourlovers.com/"
+            },
+            {
+                "title": "Color Palettes",
+                "url": "https://colorpalettes.earth/"
+            },
+            {
+                "title": "Open-Color",
+                "url": "https://yeun.github.io/open-color/"
+            }
+        ],
+        "css": [
+            {
+                "title": "CSS Tricks",
+                "url": "https://css-tricks.com/"
+            },
+            {
+                "title": "Can I Use",
+                "url": "https://caniuse.com/"
+            },
+            {
+                "title": "CSS-Glass",
+                "url": "https://css.glass/"
+            },
+            {
+                "title": "WaterCSS",
+                "url": "https://watercss.kognise.dev/"
+            },
+            {
+                "title": "Gradient Generator",
+                "url": "https://omatsuri.app/gradient-generator"
+            },
+            {
+                "title": "Page-Dividers",
+                "url": "https://omatsuri.app/page-dividers"
+            },
+            {
+                "title": "Flexbox Froggy",
+                "url": "https://flexboxfroggy.com/"
+            }
+        ],
+        "diagrams": [
+            {
+                "title": "Lucidchart",
+                "url": "https://lucidchart.com/"
+            },
+            {
+                "title": "Draw.io",
+                "url": "https://draw.io/"
+            },
+            {
+                "title": "Web Sequence Diagram",
+                "url": "https://www.websequencediagrams.com/"
+            },
+            {
+                "title": "Excalidraw",
+                "url": "https://excalidraw.com/"
+            }
+        ],
+        "fonts": [
+            {
+                "title": "Google Fonts",
+                "url": "https://fonts.google.com/"
+            },
+            {
+                "title": "FontShare",
+                "url": "https://www.fontshare.com/"
+            },
+            {
+                "title": "Velvetyne",
+                "url": "https://velvetyne.fr/"
+            }
+        ],
+        "images": [
+            {
+                "title": "Pixabay",
+                "url": "https://pixabay.com/"
+            },
+            {
+                "title": "Unsplash",
+                "url": "https://unsplash.com/"
+            },
+            {
+                "title": "Pexels",
+                "url": "https://www.pexels.com/"
+            },
+            {
+                "title": "Lorem Picsum",
+                "url": "https://picsum.photos/"
+            }
+        ],
+        "icons": [
+            {
+                "title": "Flaticon",
+                "url": "https://www.flaticon.com/"
+            },
+            {
+                "title": "Icons8",
+                "url": "https://icons8.com/"
+            },
+            {
+                "title": "Lordicon",
+                "url": "https://lordicon.com/"
+            },
+            {
+                "title": "IconScout",
+                "url": "https://iconscout.com/"
+            }
+        ],
+        "illustration": [
+            {
+                "title": "Storyset",
+                "url": "https://storyset.com/"
+            },
+            {
+                "title": "unDraw",
+                "url": "https://unDraw.co/"
+            }
+        ],
+        "3d": [
+            {
+                "title": "Sketchfab",
+                "url": "https://sketchfab.com/"
+            },
+            {
+                "title": "Shapefest",
+                "url": "https://shapefest.com/"
+            }
+        ],
+        "tools": [
+            {
+                "title": "Canva",
+                "url": "https://www.canva.com/"
+            },
+            {
+                "title": "CodePen",
+                "url": "https://codepen.io/"
+            },
+            {
+                "title": "devdocs",
+                "url": "https://devdocs.io/"
+            },
+            {
+                "title": "overapi",
+                "url": "https://overapi.com/"
+            },
+            {
+                "title": "roadmap",
+                "url": "https://roadmap.sh/"
+            },
+            {
+                "title": "Can I use",
+                "url": "https://caniuse.com/"
+            },
+            {
+                "title": "Replit",
+                "url": "https://replit.com/"
+            }
+        ],
+        "version-control": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/"
+            },
+            {
+                "title": "GitLab",
+                "url": "https://gitlab.com/"
+            },
+            {
+                "title": "Bitbucket",
+                "url": "https://bitbucket.org/"
+            },
+            {
+                "title": "Git Extensions",
+                "url": "https://gitextensions.github.io/"
+            }
+        ],
+        "performance": [
+            {
+                "title": "GTmetrix",
+                "url": "https://gtmetrix.com/"
+            },
+            {
+                "title": "Web.dev",
+                "url": "https://web.dev/measure/"
+            },
+            {
+                "title": "WebpageTest",
+                "url": "https://webpagetest.org/"
+            },
+            {
+                "title": "SEO",
+                "url": "https://developers.google.com/search/docs/crawling-indexing/special-tags"
+            },
+            {
+                "title": "Mobile Friendly Test",
+                "url": "https://search.google.com/test/mobile-friendly"
+            }
+        ],
+        "api": [
+            {
+                "title": "Postman",
+                "url": "https://www.postman.com/"
+            },
+            {
+                "title": "Insomnia",
+                "url": "https://insomnia.rest/"
+            },
+            {
+                "title": "JSON Placeholder",
+                "url": "https://jsonplaceholder.typicode.com/"
+            },
+            {
+                "title": "Swagger",
+                "url": "https://swagger.io/"
+            },
+            {
+                "title": "Hoppscotch",
+                "url": "https://hoppscotch.io/"
+            }
+        ],
+        "accessibility": [
+            {
+                "title": "WAVE",
+                "url": "https://wave.webaim.org/"
+            },
+            {
+                "title": "aXe",
+                "url": "https://www.deque.com/axe/"
+            },
+            {
+                "title": "Contrast Checker",
+                "url": "https://contrastchecker.com/"
+            },
+            {
+                "title": "OzART",
+                "url": "https://www.accessibilityoz.com/ozart/"
+            }
+        ],
+        "misc": [
+            {
+                "title": "Random User Generator",
+                "url": "https://randomuser.me/"
+            },
+            {
+                "title": "123Apps",
+                "url": "https://123apps.com/"
+            },
+            {
+                "title": "AlternativeTo",
+                "url": "https://alternative.to/"
+            },
+            {
+                "title": "Links checker",
+                "url": "https://validator.w3.org/checklink"
+            },
+            {
+                "title": "CSS Autoprefixer",
+                "url": "https://autoprefixer.github.io/"
+            }
+        ],
+        "seo": [
+            {
+                "title": "learningseo.io",
+                "urls": "https://learningseo.io/"
+            },
+            {
+                "title": "moz",
+                "urls": "https://moz.com/beginners-guide-to-seo"
+            }
+        ]
+    }
+}
