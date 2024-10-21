@@ -236,7 +236,8 @@ a:hover {
   border-radius: 5px;
   background-color: var(--bg);
   color: var(--text);
-  border: none;
+  border: solid rgba(223, 213, 213, 0.441);
+  box-shadow: 0 10px 10px rgba(4, 3, 5, 0.1);
 }
 
 @media (max-width: 768px) {
