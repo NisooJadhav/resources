@@ -38,10 +38,12 @@ function loadFilters(data){
     try{
         const categoryFilter = document.getElementById("category-filter");
 
+        
+
         for(const [category, links] of Object.entries(data.resources)){
             const filter = document.createElement("button");
             filter.textContent = category.charAt(0).toUpperCase() + category.slice(1);
-            filter.onclick = filterCategory(category);
+            filter.onclick = () => filterCategory(category);
             categoryFilter.appendChild(filter);
         }        
     }catch(error){
