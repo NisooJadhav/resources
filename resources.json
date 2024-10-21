@@ -158,6 +158,10 @@
             {
                 "title": "DevHints",
                 "url": "https://devhints.io/"
+            },
+            {
+                "title": "QuickRef.me",
+                "url": "https://quickref.me/"
             }
         ],
         "colors": [
@@ -430,6 +434,16 @@
             {
                 "title": "CSS Autoprefixer",
                 "url": "https://autoprefixer.github.io/"
+            }
+        ],
+        "seo": [
+            {
+                "title": "learningseo.io",
+                "urls": "https://learningseo.io/"
+            },
+            {
+                "title": "moz",
+                "urls": "https://moz.com/beginners-guide-to-seo"
             }
         ]
     }
