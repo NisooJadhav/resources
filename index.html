@@ -85,30 +85,12 @@
             <input type="text" id="search-input" placeholder="🔍 Search Resources...">
         </div>
         
-        <div class="category-filter">
-            <button :hover onclick="filterCategory('all')">All</button :hover>
-            <button :hover onclick="filterCategory('ai')">AI</button :hover>
-            <button onclick="filterCategory('background')">Background</button>
-            <button onclick="filterCategory('cheatsheet')">Cheatsheet</button>
-            <button onclick="filterCategory('colors')">Colors</button>
-            <button onclick="filterCategory('css')">CSS</button>
-            <button onclick="filterCategory('diagrams')">Diagrams</button>
-            <button onclick="filterCategory('fonts')">Fonts</button>
-            <button onclick="filterCategory('images')">Images</button>
-            <button onclick="filterCategory('icons')">Icons</button>
-            <button onclick="filterCategory('illustration')">Illustration</button>
-            <button onclick="filterCategory('learning')">Learning</button>
-            <button onclick="filterCategory('3d')">3D</button>
-            <button onclick="filterCategory('misc')">Misc</button>
-            <button onclick="filterCategory('performance')">Performance</button>
-            <button onclick="filterCategory('tools')">Tools</button>
-            <button onclick="filterCategory('version-control')">Version Control</button>
-            <button onclick="filterCategory('api')">API</button>
-            <button onclick="filterCategory('accessibility')">Accessibility</button>
+        <div class="category-filter" id="category-filter">
+            <!-- To load the filters dynamically on page load using loadFilters()-->
         </div>
 
         <div class="resources-grid" id = "resources-grid">
-            <!-- All the links are added dynamically to the resource grid. To add new cards or links make changes to resources.json file.-->
+            <!-- All the links are added dynamically to the resource grid using loadResources(). To add new cards or links make changes to resources.json file.-->
         </div>
     </div>
 

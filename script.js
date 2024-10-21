@@ -33,6 +33,22 @@ function toggleDarkMode() {
     themeToggle.textContent = themeToggle.textContent === '🌙' ? '🌞' : '🌙';
 }
 
+//dynamically load filters
+function loadFilters(data){
+    try{
+        const categoryFilter = document.getElementById("category-filter");
+
+        for(const [category, links] of Object.entries(data.resources)){
+            const filter = document.createElement("button");
+            filter.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+            filter.onclick = filterCategory(category);
+            categoryFilter.appendChild(filter);
+        }        
+    }catch(error){
+        console.error('Error loading filters: ', error);
+    }
+}
+
 // Back to top button
 const backToTop = document.getElementById('back-to-top');
 window.addEventListener('scroll', () => {
@@ -52,6 +68,8 @@ async function loadResources() {
     try {
         const response = await fetch('resources.json'); // Fetch the JSON file
         const data = await response.json(); // Parse the JSON data
+
+        loadFilters(data);
 
         const resourcesContainer = document.getElementById('resources-grid');
 
