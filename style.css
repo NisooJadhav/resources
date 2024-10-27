@@ -61,6 +61,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   animation: gradientText 5s ease infinite;
   font-weight: normal;
+  margin-top: 0;
 }
 
 span {
@@ -241,7 +242,7 @@ a:hover {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
   }
 
